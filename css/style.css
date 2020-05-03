@@ -173,12 +173,13 @@ li:first-child::before{
 
 @media screen and (max-width: 500px){
 	body{
-		touch-action: pinch-zoom;
+		
 	}
 	.header{
 		display: flex;
 		flex-direction: row;
 		height: 115px;
+		width: 100%;
 		padding-bottom:;
 	}
 	.main{
@@ -188,7 +189,7 @@ li:first-child::before{
 	}
 	.un{
 		background-color: #fff;
-		min-width: 250px;
+		min-width: 25px;
 		width: 250px;
 		max-width: 250px;
 		display: flex;
@@ -216,9 +217,9 @@ li:first-child::before{
 		background-color: black;
 	}
 	.quatre{
-		min-width: 500px;
+		min-width: 100%;
 		width: 450px;
-		max-width: 450px;
+		max-width: 100%;
 	}
 	.quatre div{
 		line-height: 1;
@@ -255,7 +256,7 @@ li:first-child::before{
 		padding-left: 10px;
 	}
 	.header h1{
-		font-size: 26px;
+		font-size: 20px;
 	}
 	.header div{
 		font-size: 13px;
@@ -284,11 +285,11 @@ li:first-child::before{
 		margin-left: 5px;
 	}
 	li>div:first-child{
-		min-width: 50px;
+		min-width: 150px;
 		width: 160px;
 		max-width: 160px;
 		padding-bottom: 0px;
-		padding-left: 1px;
+		padding-left: 40px;
 		transform: translate(0, -0.50vh);
 	}
 	li::before{
@@ -306,7 +307,7 @@ li:first-child::before{
 		margin-right: 0px;
 	}
 	div li{
-		min-width: 400px;
-		width: 400px;
-		max-width: 400px;
+		min-width: 200px;
+		width: 200px;
+		max-width: 200px;
 	}
