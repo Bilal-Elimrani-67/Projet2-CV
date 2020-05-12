@@ -71,6 +71,8 @@ span{
 	width: 400px;
 	max-width: 400px;
 	height: auto;
+	display: flex;
+	flex-direction: column;
 }
 h3{
 	box-shadow: black;
@@ -78,19 +80,20 @@ h3{
 	font-family: 'Cuprum', sans-serif;
 	text-align: center;
 	background-color: black;
-	padding-right: 10px;
+	padding-right: 10px;x
 }
 .informations{
 	padding-bottom: 300px;
 }
 .aproposdemoi{
-	padding-bottom: 900px;
+	flex:1;
 }
 .loisirs{
 }
 .trois div{
 	text-align: center;
 	font-family: 'Indie Flower', cursive;
+	font-size: 17px;
 }
 .trois i{
 	font-size: 40px;
@@ -106,6 +109,7 @@ h3{
 	font-family: 'Special Elite', cursive;
 }
 .quatre div{
+	font-size: 19px;
 	font-family: 'Indie Flower', cursive;
 }
 h1 .fas{
@@ -260,7 +264,7 @@ li:first-child::before{
 		padding-left: 10px;
 	}
 	.header h1{
-		font-size: 26px;
+		font-size: 23px;
 	}
 	.header div{
 		font-size: 13px;
@@ -310,8 +314,4 @@ li:first-child::before{
 		margin-left: -20px;
 		margin-right: 0px;
 	}
-	div li{
-		min-width: 200px;
-		width: 200px;
-		max-width: 200px;
-	}
+	
