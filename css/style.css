@@ -1,5 +1,5 @@
 body{
-	background-color: #999;
+	background-color: #fff;
 	margin: 0;
 	padding: 0;
 }
@@ -14,7 +14,7 @@ body{
 	height: 50px;
 }
 .un{
-	background-color: #DC143C;
+	background-color: #ef5350;
 	min-width: 400px;
 	width: 400px;
 	max-width: 400px;
@@ -45,10 +45,10 @@ img{
 	font-family: 'Indie Flower', cursive;
 }
 span{
-	color: #DC143C;
+	color: #ef5350;
 }
 .develo{
-	border-bottom: 1.5px #DC143C solid;
+	border-bottom: 1.5px #ef5350 solid;
 	color: black;
 }
 .main{
@@ -59,14 +59,14 @@ span{
 	flex-direction: row;
 }
 .main h1{
-	border-bottom: 1px #DC143C solid;
+	border-bottom: 1px #ef5350 solid;
 }
 .children1{
 	width: 50px;
 	height: 50px;
 }
 .trois{
-	background-color:  #DC143C;
+	background-color:  #ef5350;
 	min-width: 400px;
 	width: 400px;
 	max-width: 400px;
@@ -76,7 +76,7 @@ span{
 }
 h3{
 	box-shadow: black;
-	color: #DC143C;
+	color: #ef5350;
 	font-family: 'Cuprum', sans-serif;
 	text-align: center;
 	background-color: black;
@@ -113,7 +113,7 @@ h3{
 	font-family: 'Indie Flower', cursive;
 }
 h1 .fas{
-	color: #DC143C;
+	color: #ef5350;
 	font-size: 30px
 }
 i{
@@ -157,7 +157,7 @@ li::before{
 	height: 10px;
 	min-height: 10px;
 	max-height: 10px;
-	background-color: #DC143C;
+	background-color: #ef5350;
 	border-radius: 50%;
 	margin-left: 4px;
 	margin-right: 8px;
@@ -169,7 +169,7 @@ li:first-child::before{
 	height: 4px;
 	min-height: 4px; 
 	max-height: 4px;
-	border: #DC143C 1px solid;
+	border: #ef5350 1px solid;
 	padding: 2px;
 	background-clip: content-box;
 }
@@ -207,7 +207,7 @@ li:first-child::before{
 		min-width: 25px;
 	}
 	.develo{
-	border-bottom: 1.5px #DC143C solid;
+	border-bottom: 1.5px #ef5350 solid;
 	color: black;
     }
 	.trois{
@@ -221,7 +221,7 @@ li:first-child::before{
 	}
 	h3{
 		box-shadow: red;
-		color: #DC143C;
+		color: #ef5350;
 		background-color: black;
 	}
 	.quatre{
@@ -276,7 +276,7 @@ li:first-child::before{
 		font-size: 19px;
 	}
 	h1 .fas{
-		color: #DC143C;
+		color: #ef5350;
 		font-size: 30px
 	}
 	h3{
@@ -286,7 +286,7 @@ li:first-child::before{
 		border-radius: 50%;
 		width: 100px;
 		height: 100px;
-		border: #DC143C ridge 2px;
+		border: #ef5350 ridge 2px;
 	}
 	li{
 		font-size: 15px;
@@ -309,7 +309,7 @@ li:first-child::before{
 		height: 10px;
 		min-height: 10px;
 		max-height: 5px;
-		background-color: #DC143C;
+		background-color: #ef5350;
 		border-radius: 50%;
 		margin-left: -20px;
 		margin-right: 0px;
