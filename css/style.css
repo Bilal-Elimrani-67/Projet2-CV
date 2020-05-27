@@ -147,7 +147,6 @@ li{
 	margin-left: 55px;
 	font-family: 'Montserrat', sans-serif;
 	display: flex;
-	
 }
 li>div:first-child{
 	min-width: 150px;
@@ -303,7 +302,7 @@ li:first-child::before{
 		border: #ef5350 ridge 2px;
 	}
 	ul{
-		line-height: 2;
+	
 	}
 	li{
 		font-size: 15px;
@@ -331,4 +330,5 @@ li:first-child::before{
 		margin-left: -20px;
 		margin-right: 0px;
 	}
-	
+
+
