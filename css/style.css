@@ -271,7 +271,9 @@ li:first-child::before{
 	}
 	.recommandationGlobal{
 		display: flex;
-		padding-right: 100px;
+		justify-content: space-around;
+		padding-left: 50px;
+		margin-left: 10px;
 	}
 	header h1{
 		font-size: 23px;
