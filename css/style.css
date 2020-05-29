@@ -196,7 +196,6 @@ li:first-child::before{
 		flex-direction: row;
 		height: 115px;
 		width: 100%;
-		padding-bottom:;
 	}
 	main{
 		display: flex;
