@@ -1,7 +1,6 @@
 body{
 	background-color: #fff;
-	margin: 0;
-	padding: 0;
+	margin: auto;
 }
 header{
 	background-color: #fff;
@@ -58,8 +57,9 @@ main{
 	display: flex;
 	flex-direction: row;
 }
-main h1{
+main h2{
 	border-bottom: 1px #ef5350 solid;
+	font-family: 'Cuprum', sans-serif;
 }
 .children1{
 	width: 50px;
@@ -74,8 +74,7 @@ main h1{
 	display: flex;
 	flex-direction: column;
 }
-h3{
-	box-shadow: black;
+.section h2{
 	color: #ef5350;
 	font-family: 'Cuprum', sans-serif;
 	text-align: center;
@@ -85,10 +84,17 @@ h3{
 .informations{
 	padding-bottom: 300px;
 }
+.informations div{
+	margin: 10px;
+}
 .aproposdemoi{
 	flex:1;
 }
+.aproposdemoi div{
+	margin: 10px;
+}
 .loisirs{
+
 }
 .section div{
 	text-align: center;
@@ -112,7 +118,7 @@ h3{
 	font-size: 19px;
 	font-family: 'Indie Flower', cursive;
 }
-h1 .fas{
+h2 .fas{
 	color: #ef5350;
 	font-size: 30px
 }
@@ -122,17 +128,16 @@ i{
 	padding-left: 25px;
 }
 .titre1{
-	padding: 30px;
-	padding-left: 100px
-	line-height: ;
+	padding: 0px;
+	padding-left: 100px;
 }
 .titre2{
-	padding: 30px;
-	padding-left: 100px
+	padding: 0px;
+	padding-left: 100px;
 }
 .titre3{
-	padding: 30px;
-	padding-left: 100px
+	padding: 0px;
+	padding-left: 100px;
 }
 .recommandationGlobal{
 	display: flex;
@@ -226,11 +231,6 @@ li:first-child::before{
 		text-align: center;
 		font-size: 13px;
 	}
-	h3{
-		box-shadow: red;
-		color: #ef5350;
-		background-color: black;
-	}
 	.article{
 		min-width: 100%;
 		width: 450px;
@@ -272,8 +272,8 @@ li:first-child::before{
 	}
 	.recommandationGlobal{
 		display: flex;
-		justify-content: space-around;
-		padding-left: 5px;
+		flex-direction: column;
+		padding-left: 50px;
 		margin-left: 10px;
 	}
 	header h1{
@@ -328,7 +328,6 @@ li:first-child::before{
 		min-height: 10px;
 		max-height: 10px;
 		background-color: #ef5350;
-		border-radius: 50%;
 	}
 
 
