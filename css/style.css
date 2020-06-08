@@ -1,6 +1,7 @@
 body{
-	background-color: #fff;
+	background-color: black;
 	margin: auto;
+	max-width: 1300px;
 }
 header{
 	background-color: #fff;
@@ -13,7 +14,7 @@ header{
 	height: 50px;
 }
 .photodeprofil{
-	background-color: #ef5350;
+	background-color: #e57373;
 	min-width: 400px;
 	width: 400px;
 	max-width: 400px;
@@ -27,14 +28,14 @@ img{
 	width: 150px;
 	height: 150px;
 	object-fit: cover;
-	border: white solid 1px;
+	border: #b71c1c solid 3px;
 }
 .nom{
 	background-color: #fff;
 	width: 100%;
 	height: 100%;
 	padding-top: 30px;
-	padding-left: 20px;
+	padding-left: 100px;
 }
 header h1{
 	font-size: 55px;
@@ -44,10 +45,10 @@ header div{
 	font-family: 'Indie Flower', cursive;
 }
 span{
-	color: #ef5350;
+	color: #e57373;
 }
 .develo{
-	border-bottom: 1.5px #ef5350 solid;
+	border-bottom: 1.5px #e57373 solid;
 	color: black;
 }
 main{
@@ -58,15 +59,15 @@ main{
 	flex-direction: row;
 }
 main h2{
-	border-bottom: 1px #ef5350 solid;
+	border-bottom: 1px #e57373 solid;
 	font-family: 'Cuprum', sans-serif;
 }
 .children1{
 	width: 50px;
 	height: 50px;
 }
-.section{
-	background-color:  #ef5350;
+.aside{
+	background-color:  #e57373;
 	min-width: 400px;
 	width: 400px;
 	max-width: 400px;
@@ -74,8 +75,8 @@ main h2{
 	display: flex;
 	flex-direction: column;
 }
-.section h2{
-	color: #ef5350;
+.aside h2{
+	color: #e57373;
 	font-family: 'Cuprum', sans-serif;
 	text-align: center;
 	background-color: black;
@@ -94,14 +95,13 @@ main h2{
 	margin: 10px;
 }
 .loisirs{
-
 }
-.section div{
+.aside div{
 	text-align: center;
 	font-family: 'Indie Flower', cursive;
 	font-size: 17px;
 }
-.section i{
+.aside i{
 	font-size: 40px;
 	margin-right: 10px;
 	padding-left: 25px;
@@ -119,7 +119,7 @@ main h2{
 	font-family: 'Indie Flower', cursive;
 }
 h2 .fas{
-	color: #ef5350;
+	color: #e57373;
 	font-size: 30px
 }
 i{
@@ -169,7 +169,7 @@ li::before{
 	height: 10px;
 	min-height: 10px;
 	max-height: 10px;
-	background-color: #ef5350;
+	background-color: #e57373;
 	border-radius: 50%;
 	margin-left: 4px;
 	margin-right: 8px;
@@ -181,16 +181,13 @@ li:first-child::before{
 	height: 4px;
 	min-height: 4px; 
 	max-height: 4px;
-	border: #ef5350 1px solid;
+	border: #e57373 1px solid;
 	padding: 2px;
 	background-clip: content-box;
 }
 
 
 @media screen and (max-width: 800px){
-	body{
-		
-	}
 	header{
 		display: flex;
 		flex-direction: row;
@@ -218,15 +215,15 @@ li:first-child::before{
 		min-width: 25px;
 	}
 	.develo{
-	border-bottom: 1.5px #ef5350 solid;
+	border-bottom: 1.5px #e57373 solid;
 	color: black;
     }
-	.section{
+	.aside{
 		min-width: 100%;
 		width: 100%;
 		max-width: 100%;
 	}
-	.section div{
+	.aside div{
 		text-align: center;
 		font-size: 13px;
 	}
@@ -288,7 +285,7 @@ li:first-child::before{
 		font-size: 19px;
 	}
 	h1 .fas{
-		color: #ef5350;
+		color: #e57373;
 		font-size: 30px
 	}
 	h3{
@@ -298,7 +295,7 @@ li:first-child::before{
 		border-radius: 50%;
 		width: 100px;
 		height: 100px;
-		border: #ef5350 ridge 2px;
+		border: #e57373 ridge 2px;
 	}
 	ul{
 		padding-left: 10px;
@@ -326,7 +323,8 @@ li:first-child::before{
 		height: 10px;
 		min-height: 10px;
 		max-height: 10px;
-		background-color: #ef5350;
+		background-color: #e57373;
 	}
+}
 
 
